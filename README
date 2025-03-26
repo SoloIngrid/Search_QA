@@ -1,0 +1,26 @@
+Automatización de Búsqueda con Selenium
+
+Este proyecto es un script de Python que automatiza la búsqueda de "QA Engineer" en Bing usando Selenium. La prueba verifica que se obtienen resultados y toma una captura de pantalla como evidencia.
+
+Requisitos
+- Python
+- Google Chrome y ChromeDriver configurados en tu sistema
+- Librería Selenium instalada:
+  bash
+  pip install selenium
+
+Ejecución
+1. Clona este repositorio o descarga el archivo `selenium_bing_search.py`.
+2. Abre una terminal y ejecuta:
+   bash
+   python selenium_bing_search.py
+
+3. Se abrirá Bing, se realizará la búsqueda y se guardará una captura de pantalla llamada `bing_search_result.png`.
+
+Evidencia
+Después de la ejecución, encontrarás la captura de pantalla en la misma carpeta del script.
+
+Notas
+- Este script usa Bing para evitar bloqueos por CAPTCHA en Google.
+- Se incluyen pausas para simular el comportamiento humano.
+
