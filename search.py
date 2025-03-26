@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-# Configurar el driver de Selenium (asegúrate de tener el driver adecuado para tu navegador)
 driver = webdriver.Chrome()
 
 
